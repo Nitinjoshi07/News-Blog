@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Route, Routes } from "react-router-dom";  // No need to import Router here
+import { Route, Routes } from "react-router-dom"; 
 import "./Dashboard.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";

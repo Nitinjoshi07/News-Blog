@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1d2634;
-  color: #9e9ea4;
+  background-color: C0C0C0;
+  color: #000000;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -58,7 +58,7 @@ body {
 #sidebar {
   grid-area: sidebar;
   height: 100%;
-  background-color: #263043;
+  background-color: #c8c8c8;
   overflow-y: auto;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -80,6 +80,7 @@ body {
   margin-top: 15px;
   font-size: 20px;
   font-weight: 700;
+  color: #000000;
 }
 
 .sidebar-list {
@@ -99,7 +100,7 @@ body {
 
 .sidebar-list-item > a {
   text-decoration: none;
-  color: #9e9ea4;
+  color: #000000;
 }
 
 .sidebar-responsive {
