@@ -1,8 +1,8 @@
 import { MdOutlineNewspaper } from "react-icons/md";
 import { FaCalculator } from "react-icons/fa6";
-import { FaCloudDownloadAlt } from "react-icons/fa";
 import { TbMessageReport } from "react-icons/tb";
 import { SiGooglenews } from "react-icons/si";
+import { FaFilter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {  BsGrid1X2Fill } from "react-icons/bs";
 
@@ -34,7 +34,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
         </li>
         <li className="sidebar-list-item">
           <Link to="/export">
-            <FaCloudDownloadAlt className="icon" /> Export
+            <FaFilter className="icon" /> Filter
           </Link>
         </li>
         <li className="sidebar-list-item">
