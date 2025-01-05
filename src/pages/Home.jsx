@@ -16,7 +16,7 @@ function Home() {
     const fetchWeatherData = async () => {
       try {
         const response = await fetch(
-          "https://api.weatherapi.com/v1/forecast.json?key=ff9b41622f994b1287a73535210809&q=Guwahati&days=3"
+          "https://api.weatherapi.com/v1/forecast.json?key=ff9b41622f994b1287a73535210809&q=Dehradun&days=3"
         );
         const data = await response.json();
         setWeatherData(data);
