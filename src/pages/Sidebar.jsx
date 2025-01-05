@@ -18,27 +18,27 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
 
       <ul className="sidebar-list">
         <li className="sidebar-list-item">
-          <Link to="/">
+          <Link to="/dashboard">
             <BsGrid1X2Fill className="icon" /> Dashboard
           </Link>
         </li>
         <li className="sidebar-list-item">
-          <Link to="/news-analytics">
-            <MdOutlineNewspaper className="icon" /> News Analytics
+          <Link to="/dashboard/news-analytics">
+            <MdOutlineNewspaper className="icon" /> News
           </Link>
         </li>
         <li className="sidebar-list-item">
-          <Link to="/payout">
+          <Link to="/dashboard/payout">
             <FaCalculator className="icon" /> Payout
           </Link>
         </li>
         <li className="sidebar-list-item">
-          <Link to="/export">
+          <Link to="/dashboard/export">
             <FaFilter className="icon" /> Filter
           </Link>
         </li>
         <li className="sidebar-list-item">
-          <Link to="/report">
+          <Link to="/dashboard/report">
             <TbMessageReport className="icon" /> Feedback
           </Link>
         </li>

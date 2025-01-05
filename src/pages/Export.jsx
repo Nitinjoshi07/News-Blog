@@ -54,9 +54,9 @@ const Export = () => {
       </div>
 
       {/* News Cards Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-3 gap-6">
         {isLoading ? (
-          Array(9) // Skeleton loaders for 9 cards
+          Array(6) // Skeleton loaders for 6 cards
             .fill(0)
             .map((_, index) => (
               <div
@@ -69,7 +69,7 @@ const Export = () => {
               </div>
             ))
         ) : filteredNews && filteredNews.length > 0 ? ( // Check if filteredNews is valid
-          filteredNews.slice(0, 9).map((article, index) => (
+          filteredNews.slice(0, 6).map((article, index) => ( // Limit to 6 cards
             <div
               key={index}
               className="rounded overflow-hidden shadow-lg bg-white hover:shadow-xl transition-shadow duration-300"
