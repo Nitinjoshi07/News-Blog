@@ -1,29 +1,37 @@
-News Dashboard
-A modern and responsive news dashboard built using React. It fetches the latest news articles via the News API and displays them in a grid layout. Users can filter news articles by category, and export the summary of news in a downloadable PDF format.
+# News Dashboard
 
-Features
-Fetches the latest news articles from an API.
-Categorize and filter news articles by topic.
-Display news articles in a responsive grid layout.
-Export news details (title, description, etc.) as a PDF file.
-Dark and light mode support.
-Technologies Used
-React: Frontend library for building the UI.
-Tailwind CSS: Utility-first CSS framework for styling.
-News API: To fetch the latest news articles.
-jsPDF: For exporting news summaries as a PDF.
-React Router: For managing routing between different sections (optional based on your app needs).
-Prerequisites
+A modern and responsive news dashboard built using React. It fetches the latest news articles via the [News API](https://newsapi.org/) and displays them in a grid layout. Users can filter news articles by category, and export the summary of news in a downloadable PDF format.
+
+## Features
+
+- Fetches the latest news articles from an API.
+- Categorize and filter news articles by topic.
+- Display news articles in a responsive grid layout.
+- Export news details (title, description, etc.) as a PDF file.
+- Dark and light mode support.
+
+## Technologies Used
+
+- **React**: Frontend library for building the UI.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **News API**: To fetch the latest news articles.
+- **jsPDF**: For exporting news summaries as a PDF.
+- **React Router**: For managing routing between different sections (optional based on your app needs).
+
+## Prerequisites
+
 Before getting started, make sure you have the following installed:
 
-Node.js (>=14.x)
-npm
-You will also need an API key from NewsAPI.
+- [Node.js](https://nodejs.org/) (>=14.x)
+- [npm](https://www.npmjs.com/get-npm)
 
-Installation
-Clone the repository:
-bash
-Copy code
+You will also need an API key from [NewsAPI](https://newsapi.org/).
+
+## Installation
+
+1. **Clone the repository:**
+
+```bash
 git clone https://github.com/your-username/news-dashboard.git
 cd news-dashboard
 Install dependencies:
@@ -79,10 +87,6 @@ Click the "Export as PDF" button in the "Export" section to download a PDF summa
 Dark and Light Mode:
 
 The dashboard supports both light and dark themes. The theme switches automatically based on your system preference.
-Screenshots
-Desktop View
-
-Mobile View
 
 Contribution
 Feel free to fork this project and make contributions. To contribute, follow these steps:
