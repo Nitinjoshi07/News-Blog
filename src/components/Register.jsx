@@ -19,6 +19,7 @@ const Register = () => {
     }
   };
 
+  
   if(redirect){
     return <Navigate to={'/login'}/> 
   }

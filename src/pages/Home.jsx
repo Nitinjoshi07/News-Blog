@@ -2,21 +2,11 @@ import  { useState, useEffect } from "react";
 import { FaEye } from "react-icons/fa";
 import { AiOutlineLike } from "react-icons/ai";
 import {
-  BsFillGrid3X3GapFill,
   BsPeopleFill,
   BsFillBellFill,
 } from "react-icons/bs";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  LineChart,
-  Line,
-} from "recharts";
+
+
 
 function Home() {
   const [weatherData, setWeatherData] = useState(null);
